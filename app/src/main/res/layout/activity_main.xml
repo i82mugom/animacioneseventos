@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityprincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4D54343"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mi ciudad"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttoninformacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcionirainformacion"
+        android:text="Información" />
+
+    <Button
+        android:id="@+id/buttonciudades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcioniraciudad"
+        android:text="Ciudades" />
+</LinearLayout>
